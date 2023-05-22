@@ -13,10 +13,6 @@ export const QuizContextProvider = ({ children }: any) => {
   const [count, setCount] = useState(0);
   const [completeQuiz, setCompleteQuiz] = useState(0);
 
-  const randomNumberGenerator = ({ params }: any) => {
-    return Math.floor(Math.random() * params);
-  };
-
   const getCountry = async () => {
     let random = Math.floor(Math.random() * 250);
     const res = await fetch("https://restcountries.com/v3.1/all");
@@ -27,7 +23,6 @@ export const QuizContextProvider = ({ children }: any) => {
 
     setCountry(countryName);
     capitalName && setCapital(capitalName);
-    console.log(capitalName);
     setFlag(data[random].flags.svg);
     setAlt(data[random].flags.alt);
     setFlagOrCapital(Math.floor(Math.random() * 2));
