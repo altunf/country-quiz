@@ -1,0 +1,51 @@
+.result-card {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 464px;
+  height: 559px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.results {
+  font-size: 48px;
+  margin-top: 80px;
+  color: #1d355d;
+  text-align: center;
+}
+
+.winners {
+  margin-top: 49px;
+  margin-bottom: 27.5px;
+}
+
+.description {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #1d355d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.correct-answers {
+  font-size: 36px;
+  color: #6fcf97;
+}
+
+.try-again {
+  margin: auto;
+  width: 200px;
+  height: 62px;
+}
+
+.button {
+  cursor: pointer;
+  color: #1d355d;
+  width: 209px;
+  height: 62px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: 2px solid #1d355d;
+  background-color: #ffffff;
+}

@@ -1,0 +1,65 @@
+.option {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  width: 400px;
+  height: 56px;
+  color: rgba(96, 102, 208, 0.8);
+  border: 1px solid rgba(96, 102, 208, 0.8);
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.inactive {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.inactive:hover {
+  background: #f9a826;
+  color: #ffffff;
+  border: none;
+}
+
+.correct {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  background-color: #60bf88;
+  color: #ffffff;
+  border: none;
+}
+
+.false {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  background-color: #ea8282;
+  color: #ffffff;
+  border: none;
+}
+
+.letter {
+  font-size: 24px;
+  margin-left: 10px;
+}
+.name {
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+.letter-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}

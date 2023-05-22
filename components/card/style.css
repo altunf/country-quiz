@@ -1,0 +1,76 @@
+.card {
+  display: block;
+  margin: auto;
+  width: 464px;
+  height: 559px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.card-flag {
+  display: block;
+  margin: auto;
+  width: 464px;
+  height: 629px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.flag {
+  display: flex;
+  margin: auto;
+  margin-left: 14px;
+  margin-top: 38px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+}
+
+.question {
+  margin: auto;
+  margin-left: 32px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 373px;
+  height: 36px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2f527b;
+}
+
+/* .option {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+
+  cursor: pointer;
+  width: 400px;
+  height: 56px;
+
+  color: rgba(96, 102, 208, 0.8);
+  border: 1px solid rgba(96, 102, 208, 0.8);
+  background: #ffffff;
+  border-radius: 12px;
+} */
+
+/* .option:hover {
+  background: #f9a826;
+  color: #ffffff;
+  border: none;
+} */
+
+.next {
+  cursor: pointer;
+  width: 116px;
+  height: 56px;
+  margin-top: 20px;
+  margin-left: 316px;
+  border: none;
+  border-radius: 12px;
+
+  color: #ffffff;
+  background-color: #f9a826;
+  box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+
+  font-size: 18px;
+}
