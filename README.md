@@ -33,10 +33,12 @@ I have accomplished this <a href="https://devchallenges.io/challenges/Bu3G2irnaX
 
 I fulfilled user stories below:
 
-- User story: I can see a random quote
-- User story: I generate a new random quote
-- User story: When I select quote author, I can see a list of quotes from them
-- User story: I can see quote genre under the author
+- User story: I can see at least 2 types of questions: a city is the capital of.. or a flag belong to country..
+- User story: I can see select an answer
+- User story: I can see if my answer is correct or incorrect
+- User story: When I answer correctly, I can move on to the next question
+- User story: When I answer incorrectly, I can see my results and try again
+- User story: I can try again
 
 ## My Portfolio
 
